@@ -7,6 +7,13 @@
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-        <TextBlock  Text="Singe" FontSize="28"/>
+       
+        <StackPanel>
+            <TextBlock  Text="Singe" FontSize="28"/>
+            <Button 
+                Content="Go To Home"
+                Command="{Binding GoToHome}" 
+                />
+        </StackPanel>
     </Grid>
 </UserControl>
